@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    解读
+    1.区分小小写， 例如<name> 和 <Name> 是不同的标签
+    2.不能以数字开头 不能包含空格 名称中间不能包含冒号
+    3. 如果标签单词要间隔，建议使用下划线 例如<first_name> 和 <last_name>
+-->
+<students>
+    <student id="100">
+        <name>John Doe</name>
+        <age>20</age>
+        <gender>男</gender>
+    </student>
+    <student id="101">
+        <name>gege</name>
+        <age>17</age>
+        <gender>女</gender>
+    </student>
+    <school>大连东软信息学院</school>
+    <address>大连市甘井子区</address>
+    <city/>
+</students>
