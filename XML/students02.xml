@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    解读
+    1.每一个xml文件都有且只有一个根元素
+    2.根元素是文档中完全包括其他元素的元素
+    3.根元素的起始位置放在其他元素的起始位置
+    4.根元素的结束位置放在其他元素的结束位置
+    5.XML 元素指 XML 文件中出现的标签， 一个标签分为起始标签 和结束标签， 一
+    个标签有如下几种书写形式
+          包含标签体的标签：<name>John Doe</name>
+          不含标签体的标签：<name></name>， 简写为：<name/>
+     6.一个标签中可以嵌套若干子标签。但所有标签必须合理嵌套，不能交叉
+     7.student 可以叫做元素， 节点， 标签
+-->
+<students>
+    <student id="100">
+        <name>John Doe</name>
+        <age>20</age>
+        <gender>男</gender>
+    </student>
+    <student id="101">
+        <name>gege</name>
+        <age>17</age>
+        <gender>女</gender>
+    </student>
+    <school>大连东软信息学院</school>
+    <address>大连市甘井子区</address>
+    <city/>
+</students>
