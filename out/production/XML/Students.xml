@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    解读
+    1. <?xml version="1.0" encoding="utf-8" ?>
+    2. version="1.0" 表示xml版本
+    3. encoding="utf-8" 表示编码格式
+    4. xml文件的根元素 students
+    5. 子元素 student
+-->
+<students> 
+  <student id="01"> 
+    <name>John Doe</name>  
+    <gender>男</gender>  
+    <age>27</age> 
+  </student>  
+  <student id="02"> 
+    <name>gege</name>  
+    <gender>女</gender>  
+    <age>19</age> 
+  </student> 
+</students>
