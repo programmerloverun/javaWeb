@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    CDATA 节：有些内容不想让解析器解析，直接显示在页面上，可以使用 CDATA 节
+            语法： <![CDATA[内容]]>
+
+-->
+<students>
+    <student id="100">
+        <name>John Doe</name>
+        <age>&lt;20 &gt;</age>
+        <gender>男</gender>
+    </student>
+
+    <city/>
+</students>
